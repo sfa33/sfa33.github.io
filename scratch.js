@@ -32,7 +32,7 @@ function draw() {
         }
 
 
-      background(255,255,255,1);
+      background(50,25,255,10);
       strokeWeight(4);
       stroke(255);
     
