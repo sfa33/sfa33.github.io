@@ -11,7 +11,7 @@ function setup() {
   }
 
 function draw() {
-    background(0);
+    background(255);
     strokeWeight(100);
     
         var x = 0;
@@ -43,14 +43,14 @@ function draw() {
         }
       }
 
-for (let i = 0; i < 500; i++) {
-  let r = random(-1000, 1000);
+// for (let i = 0; i < 500; i++) {
+//   let r = random(-1000, 1000);
 
-  if (i % 10 == 0) {
-    line(width / 2, i, height + r, i);
-  }
+//   if (i % 10 == 0) {
+//     line(width / 2, i, height + r, i);
+//   }
 
-  }
+//   }
 
 
     }
