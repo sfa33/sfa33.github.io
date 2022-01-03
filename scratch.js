@@ -36,17 +36,21 @@ function draw() {
       strokeWeight(4);
       stroke(255);
     
-      for (var x = 0; x <= mouseX; x += 50) {
-        for (var y = 0; y <= width; y += 50) {
+      for (var x = 0; x <= mouseX; x++) {
+        for (var y = 0; y <= width; y++) {
           fill(random(255), 0, random(255));
-          ellipse(x, y, 25, 25);
+          ellipse(x * 50, y * 50, 25, 25);
         }
       }
 
-for (let i = 0; i < 100; i++) {
+for (let i = 0; i < 500; i++) {
   let r = random(-1000, 1000);
-  line(50, i, 50 + r, i);
-}
+
+  if (i % 10 == 0) {
+    line(width / 2, i, height + r, i);
+  }
+
+  }
 
 
     }
