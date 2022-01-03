@@ -32,13 +32,13 @@ function draw() {
         }
 
 
-      background(50,25,255,10);
+      background(255,255,255,1);
       strokeWeight(4);
       stroke(255);
     
       for (var x = 0; x <= mouseX; x++) {
         for (var y = 0; y <= width; y++) {
-          fill(255, random(255), 255;
+          fill(random(255), 0, random(255));
           ellipse(x * 50, y * 50, 25, 25);
         }
       }
