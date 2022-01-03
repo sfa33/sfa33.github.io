@@ -38,7 +38,7 @@ function draw() {
     
       for (var x = 0; x <= mouseX; x++) {
         for (var y = 0; y <= width; y++) {
-          fill(random(255), 0, random(255));
+          fill(255, random(255), 255;
           ellipse(x * 50, y * 50, 25, 25);
         }
       }
