@@ -11,7 +11,7 @@ function setup() {
   }
 
 function draw() {
-    background(255);
+    background(0);
     strokeWeight(100);
     
         var x = 0;
@@ -32,14 +32,42 @@ function draw() {
         }
 
 
+
+
+
+
+      //   var words = ["rainbow", "heart","purple", "friendship", "love"];
+
+      //   var index = 0;
+
+
+      //   fill(255);
+      //   textSize(32);
+      //   text(words[index], 300, 300); 
+        
+      // }
+      
+      // function mouseDown() {
+      //   index = index + 1;
+        
+      //   if (index == words.length) {
+      //     index = 0;
+
+
+      //   }
+
+
+        
+
+
       background(255,255,255,1);
       strokeWeight(4);
       stroke(255);
     
       for (var x = 0; x <= mouseX; x++) {
         for (var y = 0; y <= width; y++) {
-          fill(random(255), 0, random(255));
-          ellipse(x * 50, y * 50, 25, 25);
+          fill(255);
+          ellipse(x * 1, y * 50, 25, 25);
         }
       }
 
@@ -54,7 +82,3 @@ function draw() {
 
 
     }
-  
-  //fill(0,255,0,100)
-//noStroke();
-//rect(255,150,100,100)
