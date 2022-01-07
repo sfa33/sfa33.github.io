@@ -1,6 +1,4 @@
 function setup() {
-    //createCanvas(innerWidth, innerHeight);
-
     let b = document.getElementById("canvas");
     let w = b.clientWidth;
     let h = b.clientHeight;
@@ -42,40 +40,18 @@ function draw() {
           ellipse(x*50,y*50,25,25); 
           }  
         }
-
-movingLines(30);
-
-
-
-
-        // var words = ["rainbow", "heart","purple", "friendship", "love"];
-
-        // var index = 0;
+movingLines(30);       
 
         strokeWeight(0);
         textSize(40);
+        fill(255);
+        textAlign(CENTER);
         text(words[index], width / 2, height / 2);
-        
-      
-      // function mousePressed() {
-      //   index = index + 1;
-        
-      //   if (index == words.length) {
-      //     index = 0;
-
-
         }
 
-      
-        
-    
-        var words = ["rainbow", "heart","purple", "friendship", "love"];
-
+        var words = ["indecent", "stop","pulsate", "extraction", "love"];
         var index = 0;
 
-        // strokeWeight(0);
-        // textSize(40);
-        // text(words[index], width / 2, height / 2);
     
     function mousePressed() {
       index = index + 1;
@@ -83,21 +59,12 @@ movingLines(30);
       if (index == words.length) {
        index = 0;
 
-      console.log ("hey i pressed the fuck u")
+      console.log ("hey i pressed the mouse fuck u")
 
       }
 
     }
 
-
-// for (let i = 0; i < 500; i++) {
-//   let r = random(-1000, 1000);
-
-//   if (i % 10 == 0) {
-//     line(width / 2, i, height + r, i);
-//   }
-
-//   }
 
 
     
